@@ -1,0 +1,45 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Sora', sans-serif;
+}
+
+.myNav {
+    height: 10rem;
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 2rem;
+}
+
+.myLinks {
+    margin: 1rem;
+    color: #FF6464;
+}
+
+.myLinks:hover {
+    font-size: 3.3rem;
+    color: #B3541E;
+    transition: all 200ms;
+}
+
+.myHeader {
+    margin: 1rem;
+}
+
+.myBrand {
+    font-size: 3rem;
+    color: #950101;
+}
+
+.myBrand:hover {
+    color: #950101;
+    cursor: none;
+}
+
+.myIcon {
+    color: black;
+    font-size: 3rem;
+}
+
+.myButton {
+    color: transparent;
+}
