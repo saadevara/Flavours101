@@ -1,45 +1,64 @@
 body {
-    background-color: antiquewhite;
-    font-family: 'Sora', sans-serif;
+  background-color: antiquewhite;
+  font-family: "Sora", sans-serif;
+  color: #ff6464;
 }
 
 .myNav {
-    height: 10rem;
-    font-size: 3rem;
-    font-weight: 400;
-    padding: 2rem;
+  height: 7rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding: 1.5rem;
+  background-color: #fdceb9;
+  border-bottom: 1px solid black;
 }
 
 .myLinks {
-    margin: 1rem;
-    color: #FF6464;
+  margin: 1rem;
+  color: #ff6464;
 }
 
 .myLinks:hover {
-    font-size: 3.3rem;
-    color: #B3541E;
-    transition: all 200ms;
+  font-size: 2.6rem;
+  color: #950101;
+  transition: all 200ms;
 }
 
 .myHeader {
-    margin: 1rem;
+  border-radius: 1rem;
+  background-color: #fdceb9;
 }
 
 .myBrand {
-    font-size: 3rem;
-    color: #950101;
+  font-size: 2.5rem;
+  color: #950101;
 }
 
 .myBrand:hover {
-    color: #950101;
-    cursor: none;
+  color: #950101;
+  cursor: auto;
 }
 
 .myIcon {
-    color: black;
-    font-size: 3rem;
+  color: black;
+  font-size: 3rem;
 }
 
 .myButton {
-    color: transparent;
+  color: transparent;
+}
+
+.myMainImage {
+  border-radius: 1rem;
+  border: 1px solid #fdceb9;
+}
+
+.myMainImage:hover {
+  border-radius: 1.5rem;
+  border: 2px solid black;
+}
+
+.myFooter {
+  text-decoration: none;
+  color: #950101;
 }
