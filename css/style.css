@@ -14,6 +14,7 @@ body {
 }
 
 .myLinks {
+  font-weight: 500;
   margin: 1rem;
   color: #ff6464;
 }
@@ -30,6 +31,7 @@ body {
 }
 
 .myBrand {
+  font-weight: 600;
   font-size: 2.5rem;
   color: #950101;
 }
@@ -61,4 +63,11 @@ body {
 .myFooter {
   text-decoration: none;
   color: #950101;
+}
+
+/* blog  */
+
+.myBlogContent {
+  color: black;
+  font-weight: 600;
 }
