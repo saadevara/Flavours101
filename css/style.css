@@ -1,7 +1,8 @@
 body {
-  background-color: antiquewhite;
+  background-color: white; 
   font-family: "Sora", sans-serif;
-  color: #ff6464;
+  color: black;
+  /* antiquewhite */
 }
 
 .myNav {
@@ -9,41 +10,46 @@ body {
   font-size: 2.5rem;
   font-weight: 400;
   padding: 1.5rem;
-  background-color: #fdceb9;
+  background-color: gray;
   border-bottom: 1px solid black;
 }
 
 .myLinks {
-  font-weight: 500;
+  font-weight: 600;
   margin: 1rem;
-  color: #ff6464;
+  color: white;
 }
 
 .myLinks:hover {
   font-size: 2.6rem;
-  color: #950101;
+  color: black;
   transition: all 200ms;
 }
 
 .myHeader {
   border-radius: 1rem;
-  background-color: #fdceb9;
+  background-color: gray;
 }
 
 .myBrand {
   font-weight: 600;
   font-size: 2.5rem;
-  color: #950101;
+  color: white;
 }
 
 .myBrand:hover {
-  color: #950101;
+  color: white;
   cursor: auto;
 }
 
 .myIcon {
   color: black;
   font-size: 3rem;
+}
+
+.myStarterImage {
+  border-radius: 10rem;
+  
 }
 
 .myButton {
@@ -70,4 +76,5 @@ body {
 .myBlogContent {
   color: black;
   font-weight: 600;
+  font-size: 2rem;
 }
