@@ -1,55 +1,47 @@
 body {
-  background-color: white; 
-  font-family: "Sora", sans-serif;
-  color: black;
+  background-color: #0e1111;
+  font-family: "Abril fatface", sans-serif;
+  color: #da581c;
   /* antiquewhite */
 }
 
 .myNav {
-  height: 7rem;
+  height: 5rem;
   font-size: 2.5rem;
   font-weight: 400;
-  padding: 1.5rem;
-  background-color: gray;
-  border-bottom: 1px solid black;
+  background-color: #0e1111;
 }
 
 .myLinks {
-  font-weight: 600;
-  margin: 1rem;
-  color: white;
+  color: #da581c;
+  font-family: "Poppins",sans-serif;
 }
 
 .myLinks:hover {
   font-size: 2.6rem;
-  color: black;
+  color: #e61212e5;
   transition: all 200ms;
 }
 
 .myHeader {
   border-radius: 1rem;
-  background-color: gray;
+  background-color: #0e1111;
 }
 
 .myBrand {
-  font-weight: 600;
+  font-family: "Poppins",sans-serif;
   font-size: 2.5rem;
-  color: white;
+  color: #da581c;
 }
 
 .myBrand:hover {
-  color: white;
+  color: #e61212e5;
   cursor: auto;
 }
 
 .myIcon {
-  color: black;
+  color: #da581c;
   font-size: 3rem;
-}
-
-.myStarterImage {
-  border-radius: 10rem;
-  
 }
 
 .myButton {
@@ -58,7 +50,7 @@ body {
 
 .myMainImage {
   border-radius: 1rem;
-  border: 1px solid #fdceb9;
+  border: 1px solid #0e1111;
 }
 
 .myMainImage:hover {
@@ -68,13 +60,28 @@ body {
 
 .myFooter {
   text-decoration: none;
-  color: #950101;
+  color: #e61212e5;
+}
+
+.myWholeFooter {
+  font-family: "Poppins",sans-serif;
 }
 
 /* blog  */
 
 .myBlogContent {
-  color: black;
-  font-weight: 600;
-  font-size: 2rem;
+  font-family: "PT sans",sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+
+.myContactContent {
+  font-family: "Poppins",sans-serif ;
+}
+
+.myInfo {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #e61212e5;
+
 }
