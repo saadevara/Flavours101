@@ -2,7 +2,6 @@ body {
   background-color: #0e1111;
   font-family: "Abril fatface", sans-serif;
   color: #da581c;
-  /* antiquewhite */
 }
 
 .myNav {
@@ -72,7 +71,7 @@ body {
 .myBlogContent {
   font-family: "PT sans",sans-serif;
   font-size: 1.5rem;
-  color: #fff;
+  color: aliceblue;
 }
 
 
@@ -83,5 +82,10 @@ body {
 .myInfo {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: #e61212e5;
+}
 
+.myRecipesContent {
+  font-family: "Poppins",sans-serif ;
+  font-size: 1.8rem;
+  color: aliceblue;
 }
