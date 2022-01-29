@@ -29,7 +29,7 @@ body {
 
 .myBrand {
   font-family: "Poppins",sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #da581c;
 }
 
@@ -40,7 +40,7 @@ body {
 
 .myIcon {
   color: #da581c;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .myButton {
@@ -70,7 +70,7 @@ body {
 
 .myBlogContent {
   font-family: "PT sans",sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: aliceblue;
 }
 
