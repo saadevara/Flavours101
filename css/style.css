@@ -29,6 +29,7 @@ body {
 
 .myHeader {
   border-radius: 1rem;
+  text-align: center;
   background-color: rgb(255, 255, 255);
 }
 
@@ -44,14 +45,16 @@ body {
 }
 
 .myIcon {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  padding-bottom: 5px;
   color: #0e1111;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 900;
 }
 
-.myH1{
-  font-family: old standard tt,sans-serif;
-  font-weight: 800;
-}
+
 
 .content{
   height: 100vh;
@@ -74,11 +77,6 @@ body {
 .myMainImage {
   margin: 0;
   border-radius: 5rem;
-}
-
-.myMainImage:hover {
-  border-radius: 1.5rem;
-  border: 2px solid black;
 }
 
 .myFooter {
@@ -118,3 +116,14 @@ body {
 
 /* media queries  */
 
+@media screen and (max-width:285px) {
+  .myBrand {
+  font-size: 1.3rem;
+}
+
+.myIcon {
+  font-size: 1.3rem;
+}
+
+
+}
