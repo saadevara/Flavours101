@@ -1,46 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Oswald&family=Oxygen&family=Sora&display=swap');
+
+html{
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #0e1111;
-  font-family: "Abril fatface", sans-serif;
-  color: #da581c;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF2F9;
 }
 
 .myNav {
-  height: 5rem;
-  font-size: 2.5rem;
-  font-weight: 400;
-  background-color: #0e1111;
+  height: 4rem;
+  background-color: #fff;
 }
 
 .myLinks {
-  color: #da581c;
-  font-family: "Poppins",sans-serif;
+  font-size: 1.5rem;
+  color: #0e1111;
+  font-weight: 300;
+  font-family: oxygen,sans-serif;
 }
 
 .myLinks:hover {
-  font-size: 2.6rem;
-  color: #e61212e5;
+  color: #333;
   transition: all 200ms;
 }
 
 .myHeader {
   border-radius: 1rem;
-  background-color: #0e1111;
+  background-color: rgb(255, 255, 255);
 }
 
 .myBrand {
-  font-family: "Poppins",sans-serif;
-  font-size: 2rem;
-  color: #da581c;
+  font-family: sora,sans-serif;
+  font-size: 1.8rem;
+  color: #0e1111;
 }
 
 .myBrand:hover {
-  color: #e61212e5;
+  color: #0e1111;
   cursor: auto;
 }
 
 .myIcon {
-  color: #da581c;
-  font-size: 2rem;
+  color: #0e1111;
+  font-size: 1.5rem;
+}
+
+.myH1{
+  font-family: old standard tt,sans-serif;
+  font-weight: 800;
+}
+
+.content{
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  background-position:center;
+  background-size: cover;
+}
+
+.myH1{
+  font-family: sora,sans-serif;
+  font-weight: 900;
 }
 
 .myButton {
@@ -48,8 +72,8 @@ body {
 }
 
 .myMainImage {
-  border-radius: 1rem;
-  border: 1px solid #0e1111;
+  margin: 0;
+  border-radius: 5rem;
 }
 
 .myMainImage:hover {
@@ -59,33 +83,38 @@ body {
 
 .myFooter {
   text-decoration: none;
-  color: #e61212e5;
+  color:#dbbbbb;
 }
 
 .myWholeFooter {
-  font-family: "Poppins",sans-serif;
+  font-family: oxygen,sans-serif;
+  color: #fff;
+  background-color: #0e1111;
 }
 
 /* blog  */
 
 .myBlogContent {
-  font-family: "PT sans",sans-serif;
+  font-family: "sora",sans-serif;
   font-size: 1rem;
-  color: aliceblue;
+  color: #333;
 }
 
 
 .myContactContent {
-  font-family: "Poppins",sans-serif ;
+  font-family: "old standard tt",sans-serif ;
 }
 
 .myInfo {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  color: #e61212e5;
+  font-family: sora, Geneva, Tahoma, sans-serif;
+  color: #0e1111;
 }
 
 .myRecipesContent {
-  font-family: "Poppins",sans-serif ;
-  font-size: 1.8rem;
-  color: aliceblue;
+  font-family: "oxygen",sans-serif ;
+  font-size: 1.5rem;
+  color: #333;
 }
+
+/* media queries  */
+
